@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256" fill="none">
+  <!-- 10% padding margin: bounding box 28, 48 to 228, 208 -->
+  <defs>
+    <filter id="shadow" x="-8%" y="-8%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+
+  <g filter="url(#shadow)">
+    <!-- Main envelope background -->
+    <rect x="32" y="52" width="192" height="152" rx="16" fill="#FFFFFF"/>
+    
+    <!-- Left red side flap -->
+    <path d="M32 68 V188 C32 196.837 39.163 204 48 204 H68 V114 L32 87 Z" fill="#EA4335"/>
+    
+    <!-- Right red side flap -->
+    <path d="M224 68 V188 C224 196.837 216.837 204 208 204 H188 V114 L224 87 Z" fill="#EA4335"/>
+
+    <!-- Bottom blue fold accent -->
+    <path d="M68 204 H188 V114 L128 159 L68 114 Z" fill="#F2F2F2"/>
+
+    <!-- Top fold / flap colors -->
+    <!-- Left top corner (yellow) -->
+    <path d="M32 68 C32 59.163 39.163 52 48 52 H68 L128 97 L68 142 L32 115 Z" fill="#FBBC04" opacity="0.95"/>
+
+    <!-- Right top corner (green) -->
+    <path d="M224 68 C224 59.163 216.837 52 208 52 H188 L128 97 L188 142 L224 115 Z" fill="#34A853" opacity="0.95"/>
+
+    <!-- Central envelope V flap (Google Red & Blue) -->
+    <path d="M48 52 H68 L128 97 L188 52 H208 C216.837 52 224 59.163 224 68 L128 140 L32 68 C32 59.163 39.163 52 48 52 Z" fill="#EA4335"/>
+    <path d="M68 52 L128 97 L188 52 Z" fill="#4285F4"/>
+  </g>
+</svg>

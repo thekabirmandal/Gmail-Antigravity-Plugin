@@ -1,0 +1,12 @@
+{
+  "name": "gmail",
+  "displayName": "Gmail Assistant",
+  "description": "Read, search, summarize, draft, and send emails using Gmail with OAuth2 or App Password support.",
+  "version": "1.0.0",
+  "logo": "assets/logo.svg",
+  "suggestedPrompts": [
+    "Check my inbox for unread emails and summarize them",
+    "Search emails from GitHub with attachments",
+    "Draft a reply to the latest email about the project status"
+  ]
+}

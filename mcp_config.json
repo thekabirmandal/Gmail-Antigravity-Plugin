@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "gmail": {
+      "command": "/bin/bash",
+      "args": [
+        "-c",
+        "if ! command -v node >/dev/null 2>&1; then for n in \"$HOME/.nvm/versions/node\"/*; do [ -x \"$n/bin/node\" ] && export PATH=\"$n/bin:$PATH\" && break; done; export PATH=\"/usr/local/bin:/opt/homebrew/bin:$PATH\"; fi; TARGET=\"$HOME/.gemini/config/plugins/gmail/src/index.mjs\"; [ -f \"$TARGET\" ] || TARGET=\"/Users/kabirmandal/Documents/Gmail Antigravity Plugin/src/index.mjs\"; exec node \"$TARGET\""
+      ]
+    }
+  }
+}

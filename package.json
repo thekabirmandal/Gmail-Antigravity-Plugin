@@ -1,0 +1,31 @@
+{
+  "name": "antigravity-plugin-gmail",
+  "version": "1.0.0",
+  "description": "Antigravity plugin to read, search, draft, and send emails with Gmail.",
+  "type": "module",
+  "main": "src/index.mjs",
+  "bin": {
+    "gmail-mcp": "bin/run.sh"
+  },
+  "scripts": {
+    "start": "node src/index.mjs",
+    "auth": "node scripts/auth.mjs",
+    "status": "node scripts/status.mjs"
+  },
+  "keywords": [
+    "antigravity",
+    "plugin",
+    "mcp",
+    "gmail",
+    "email"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.1",
+    "googleapis": "^186.0.0",
+    "imapflow": "^2.4.3",
+    "mailparser": "^3.9.39",
+    "nodemailer": "^10.1.1"
+  }
+}
